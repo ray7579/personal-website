@@ -1,3 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #0d1b2a;
+  color: #d4d4f7;
+}
+
+main {
+  margin-top: 60px;
+}
+
 .App {
   text-align: center;
 }
@@ -14,7 +39,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #1b263b;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+.home-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(
+    to bottom,
+    #1b263b,
+    /* Lighter navy at the top */ #0d1b2a /* Darker navy halfway through */
+  );
+  color: #d4d4f7; /* Slightly blue-tinted white text */
+  text-align: left;
+  padding-top: 60px;
+  padding-left: 100px;
+  margin: 0;
+  border: none;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro-greeting {
+  font-size: 1.5rem;
+  color: #d4d4f7;
+}
+
+.intro-name {
+  font-size: 4rem;
+  color: #50bfc3;
+  margin: 0.5rem 0;
+}
+
+.home-section p {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.home-section p b {
+  font-size: 1.5rem;
+  color: #d4d4f7;
+}
