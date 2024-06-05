@@ -1,5 +1,5 @@
 import React from "react";
-import Typical from "react-typical";
+import ReactTypingEffect from "react-typing-effect";
 import "./Home.css";
 
 const Home = () => {
@@ -10,12 +10,13 @@ const Home = () => {
         <h1 className="intro-name">Raymond Hoang</h1>
       </div>
       <p>
-        I'm
-        <Typical
-          loop={Infinity}
-          wrapper="b"
-          steps={[" a graduate developer...", 2000]}
-          startDelay={5000}
+        I'm{" "}
+        <ReactTypingEffect
+          text={["a graduate developer...", "an assistant chef..."]}
+          speed={100}
+          eraseSpeed={50}
+          eraseDelay={2000}
+          typingDelay={500}
         />
       </p>
     </section>
